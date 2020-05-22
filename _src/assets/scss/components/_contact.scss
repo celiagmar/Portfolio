@@ -1,0 +1,81 @@
+// .link__adalab:hover {
+//   background-color: #099d8d;
+//   color: #fff;
+// }
+
+// .link__github:hover {
+//   background-color: #CCC;
+//   color: #000;
+// }
+.page__contact {
+
+   .form-container {
+
+      .title-contact {
+         font-family: 'Special Elite', cursive;
+         color: rgb(41, 39, 39);
+         font-size: 30px;
+         text-align: center;
+         padding-top: 60px;
+      }
+
+      .form-contact {
+      
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         font-family: 'Catamaran', sans-serif;
+
+         input {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+
+            @media all and (min-width:768px) {
+               width: 70%;
+            }
+            @media all and (min-width:1280px) {
+               width: 60%;
+            }
+         }
+
+         .message-text {
+            width: 100%;
+            height: 200px;
+            padding: 5px;
+            margin: 10px 0;
+
+            @media all and (min-width:768px) {
+               width: 70%;
+               margin-bottom: 40px;
+            }
+            @media all and (min-width:1280px) {
+               width: 60%;
+            }
+         }
+
+         .submit-btn {
+            background-color:rgb(41, 39, 39);
+            color: white;
+            width: 100px;
+            height: 40px;
+            outline: none;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            border-color: transparent;
+            border-radius: 22px;
+            font-size: 20px;
+         }
+
+         .submit-btn:hover {
+            width: 110px;
+            height: 50px;
+            font-size: 27px;
+            font-weight: bold;
+            border-radius: 30px;
+            margin-bottom: 20px;
+         }
+      }
+   }
+}

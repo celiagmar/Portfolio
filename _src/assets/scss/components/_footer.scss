@@ -1,0 +1,22 @@
+.page__footer {
+
+   background-color: beige;
+   height: 20vh;
+
+   @media all and (min-width:768px) {
+      height: 8vh;
+   }
+   
+   .footer-container {
+
+      .footer-text {
+         text-align: center;
+         padding-top: 30px;
+         font-family: 'Catamaran', sans-serif;
+         
+         @media all and (min-width:768px) {
+            padding-top: 20px;
+         }
+      }
+   }
+}

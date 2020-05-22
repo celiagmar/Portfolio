@@ -1,0 +1,21 @@
+body {
+   background-image: url("../images/3604544.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   background-attachment: fixed;
+}
+
+.wrapper {
+  margin: 0 25px;
+  background: transparent;
+
+  @media all and (min-width:768px) {
+    margin: 0 48px;
+  }
+
+  @media all and (min-width:1280px) {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+}
