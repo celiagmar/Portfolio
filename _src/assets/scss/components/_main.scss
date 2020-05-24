@@ -1,4 +1,12 @@
 .page__main {
+
+   .title-main {
+      padding-bottom: 10px;
+      text-align: center;
+      font-family: 'Special Elite', cursive;
+      color: rgb(41, 39, 39);
+   }
+
    .hero {
       display: flex;
       flex-direction: row;
@@ -12,11 +20,13 @@
          display: grid;
          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
          grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+         gap: 1em;
       }
 
       .img-container {
          width: 50%;
          padding: 7px;
+         // background-color: white;
 
          @media all and (min-width:768px) {
             width: 100%;
@@ -26,6 +36,8 @@
 
          img {
             width: 100%;
+            height: 100%;
+            opacity: 0.8;
          }
       }
 
