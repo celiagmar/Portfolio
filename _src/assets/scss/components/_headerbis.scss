@@ -1,7 +1,18 @@
 .headerbis__page {
-   height: 10vh;
+   width: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
    font-family: 'Special Elite', cursive;
+   color: rgb(41, 39, 39);
+   padding: 0.8em;
+
+   @media all and (min-width:768px) {
+      height: 10vh;
+   }
+
+   a {
+      text-decoration: none;
+      color: rgb(41, 39, 39);
+   }
 }

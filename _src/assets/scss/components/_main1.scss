@@ -1,0 +1,77 @@
+.page {
+   height: 100vh;
+
+.main1-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   color: rgb(41, 39, 39);
+   background-color: #C3DC88;
+   font-family: 'Catamaran', sans-serif;
+   margin-bottom: 7%;
+
+   // @media all and (min-width:768px) {
+   //    height: 80vh;
+   // }
+
+   a {
+      text-decoration: none;
+      color: rgb(41, 39, 39);
+
+      .back {
+         font-size: 1.2em;
+         padding: 0.3em;
+         background-color:rgb(41, 39, 39);
+         color: white;
+         width: 4.1em;
+         height: 1.9em;
+         outline: none;
+         margin-top: 0.8em;
+         margin-bottom: 0.8em;
+         border-color: transparent;
+         border-radius: 22px; 
+      }
+   }
+
+   h3 {
+      font-weight: bold;
+      font-size: 1.4em;
+      padding-bottom: 0.7em;
+      text-align: center;
+   }
+
+   .project-description {
+      font-size: 1.1em;
+      line-height: 1.2em;
+      padding: 0 0.8em 1.8em 0.8em;
+      text-align: center;
+   }
+
+   .project1-img {
+      padding: 0 1em;
+
+
+      img {
+         width: 100%;
+         opacity: 0.9;
+      }
+   }
+
+   .link-icons {
+      font-size: 1.3em;
+
+      a {
+         text-decoration: none;
+         color: rgb(41, 39, 39);
+   
+         i {
+            padding: 0.8em;
+         }
+         i:hover {
+            color: white;
+         }
+      }
+   }
+}
+}
