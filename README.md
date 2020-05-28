@@ -1,124 +1,93 @@
-![Adalab](_src/assets/images/logo-adalab-80px.png)
+![di](https://i.ibb.co/gD55qRd/portfolio.png)
 
-# Adalab web starter kit
+## PORTFOLIO CELIA GUTIÉRREZ   
+## Visita mi portfolio 😍, también tienes acceso al código!!
 
-Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
-Incluye SCSS, un sistema de plantillas HTML y un web server.
 
-## Guía de inicio rápido
 
-Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este Starter Kit, luego:
+> => Portfolio con una recopilación de mis proyectos. ♻️
 
-1. Descarga o clona el repositorio
-2. Instala las dependencias locales con `npm install`
-3. Arranca el kit con `gulp`
+	
+<h3 text-align="center">Celia Gutiérrez  <a href="https://i.ibb.co/VpDw6KC/404.png" target="_blank">Page</a>.</h3>
 
-## Espera, ¿esto se hace siempre?
+Emprendedora y luchadora. Mi afán de superación personal me lleva a la búsqueda y asunción de nuevos retos, lo que me permite estar en continuo crecimiento.
 
-> ### Solo una vez al principio en cada ordenador que utilicemos:
+Si tuviera que destacar una cualidad sobre mí, esta sería la perseverancia, y por ella, precisamente, tuve el arrojo y la valentía de reinventarme como Desarrolladora Front End.
 
-- Instalamos node
-- Instalamos el comando de gulp de forma global para poder usarlo desde cualquier carpeta usando `npm install --global gulp-cli`
+¿Y por qué desarrolladora? Pues porque considero que el sector tecnológico es ideal para explotar todas mis capacidades y dar lo mejor de mí misma. 
 
-> ### Cada vez que descarguemos o clonemos un repo:
 
-- `npm install` para instalar los paquetes necesarios para convertir Sass a CSS, minizarlo, etc.
+## Autora ✒️
 
-> ### Cada vez que estemos trabajando con nuestro código:
+👑 👩🏻‍💻 👑 | Celia Gutierrez |  [GitHub](https://github.com/celiagmar)   | 👑 👩🏻‍💻 👑
+ 
+## Contenido
 
-- Desde nuestra terminal, ejecutamos el comando `gulp` para que realice la tarea por defecto, que en el caso del `gulpfile.js` que tenemos en adalab-web-starter-kit estará pendiente de nuestros archivos Sass, html y JavaScript y los compilará, minificará y/o recargará el servidor cada vez que hagamos un cambio
+- [Autora](#autora)
+- [Objetivos](#objetivos)
+- [Instalación](#instalación)
+- [Especificaciones](#especificaciones)
+- [Contribuye](#contribuye)
+- [Creado](#creado) 
 
-## Tareas de gulp incluidas
+## Objetivos
 
-### Inicio de un web server para desarrollo
+1.  Recopilación de cada proyecto creado en diferentes lenguajes de programación. :thumbsup:
+    
+2.  Utilizar diferentes herramientas para unir en un solo documento diferentes proyectos. :thumbsup:
+    
+3.  Permitir acceso a cualquier persona, tanto al código del proyecto como a la interfaz. :thumbsup:
+    
+4.  Practicar lo aprendido en el curso. :thumbsup:
+    
+5.  Satisfacción propia :thumbsup:
+    
 
+## Instalación 🔧
+
+Necesitarás instalar  📋 [Node.js](https://nodejs.org/) para trabajar con este repositorio, luego:
+
+1. Descarga o clona el repositorio. ⚙️
+```sh
+$ git clone https://celiagmar.github.io/Portfolio/
 ```
-npm start
+2. Abre el proyecto en tu editor de codigo (Visual Sudio Code, Atom, Brackets...)
+
+3. Instala las dependencias locales
+```sh
+$ npm install
 ```
-
-o lo que en este proyecto es lo mismo:
-
-```
-gulp
-```
-
-Lanza un webserver con BrowserSync y varios watchers estarán pendientes de los archivos SCSS/JS/HTML, en la carpeta **public/**, para recargar el navegador cuando se necesite.
-
-### Versión lista para subir a producción
-
-Para generar los ficheros para producción ejecuta:
-
-```
-npm run docs
-```
-
-o lo que en este proyecto es lo mismo:
-
-```
-gulp docs
-```
-
-En la carpeta **docs/** se generarán los CSS y JS minimizados y sin sourcemaps listos para subir al repo. A continuación súbelos al repo y activa en GitHub Pages la opción **master/docs/**, para que GitHub Pages sirva la página desde la carpeta **docs/**.
-
----
-
-Si quieres generar los ficheros listos para producción y además subirlos a GitHub directamente ejecuta el siguiente comando:
-
-```
-npm run push-docs
+4. Arranca el proyecto:
+```sh
+$ gulp
 ```
 
-Este comando borra la carpeta **docs/**, la vuelve a generar, crea un commit con los nuevos ficheros y hace un `git push`, todo del tirón. ¿Cómo se te queda el cuerpo?. Si quieres saber cómo funciona échale un ojo al fichero `package.json`.
+## Especificaciones  
 
-## Flujo de archivos con gulp
+- Uso avanzado de HTML5
 
-Estas tareas de gulp producen el siguiente flujo de archivos:
+- Maquetación usando SASS, incluyendo flex :sparkles:
 
-![Gulp flow](./gulp-flow.png)
+- Uso de mediaqueries para que el diseño sea adaptable al dispositivo usando la estrategia mobile first
 
-## Estructura del proyecto
+- Acceso y envío de datos a través de un formulario :sparkles:
 
-Nuestro **gulpfile.js** usa un JSON de configuración con las rutas de los archivos a generar/vigilar.
+- Uso de git para el control de versiones del proyecto :octocat:
 
-La estructura de carpetas tiene esta pinta:
+- Publicación del resultado en Internet usando GitHub Pages :sparkles:
 
-```
-/
-`- _src
-   |- api
-   |  |- data.json // para crearnos un servidor de datos local
-   |- assets
-   |  |- icons
-   |  |- images
-   |  |- js
-   |  `- scss
-   |     `- core
-   |
-   `- templates
-      `- partials
 
-```
+:octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:  :octocat:
+:octocat:  
 
-## HTML
+## Contribuye 🖇️
+1.  Haz un Fork ([https://github.com/yourname/yourproject/fork](https://github.com/yourname/yourproject/fork))
+2.  Crea una nueva rama (`git checkout -b feature/fooBar`)
+3.  Haz commit con los cambios (`git commit -m 'Add some fooBar'`)
+4.  Haz push en tu rama (`git push origin feature/fooBar`)
+5.  Crea un nuevo Pull Request
 
-Viene incluído el paquete [**gulp-html-partial**](https://www.npmjs.com/package/gulp-html-partial) que nos va a permitir tener un sistema de plantillas html
 
-## Imágenes e iconos
 
-Tenemos en **\_src/** una carpeta para las imágenes del proyecto y una para los iconos como el favicon o los iconos de dispositivos móviles. Estos últimos se generan en la raíz de las carpetas **public/** y **docs/**
-
-## CSS
-
-Viene incluído el paquete [**gulp-combine-mq**](https://www.npmjs.com/package/gulp-combine-mq) que agrupa todas las mediaqueries al final del documento css.
-
-## JS
-
-Podemos usar parciales de JS: en el JSON de configuración, **config.json** especificamos los archivos JS que utilizamos y en el orden que deben procesarse.
-
-## ¿Cómo actualizo si tengo una versión anterior?
-
-En principio puedes descargar todos los archivos fuera de **\_src/** y sustituir los de tu proyecto. Además deberías replicar la estructura de carpetas dentro de **\_src/**.
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de los Issues o si te animas a mejorarlo mándanos un PR :)
+## Creado 
+⌨️ con ❤️ por Celia Gutiérrez 😊
